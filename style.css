@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.maincontainer{
+    display:flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+.box{
+    /* flex-basis: 23%; */
+    flex-grow: 1;
+    text-align: center;
+}
+.box1{
+    background-color: aquamarine;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: violet;
+}
+.box4{
+    background-color: teal;
+}
+@media (max-width:700px){
+    .box{
+        width: 40%;
+    }
+}
+@media (max-width:450px){
+    .box{
+        width: 90%;
+    }
+}
